@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="http://allfont.ru/allfont.css?fonts=a_lcdnova" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="JS.HW.17.css">
+</head>
+
+<body style="background-color: rgb(35, 35, 66);">
+    <div class="main">
+        <div class="level1">
+            <div class="date"></div>
+            <div class="time"></div>
+        </div>
+        <div class="level2">
+            <div class="seconds-container">
+                <div class="seconds">00:00:00</div>
+                <div class="manipulate">
+                    <button onclick="startSec()" class="start">start</button>
+                    <button onclick="loopMessage()" class="loop">loop</button>
+                    <button onclick="stopSec()" class="stop">stop</button>
+                    <button onclick="resetSec()" class="reset">reset</button>
+                </div>
+            </div>
+            <div class="showSec"></div>
+        </div>
+        <div class="level3">
+            <div class="stopper">
+                <div class="seconds1">25</div>
+                <div class="text">MINUTES</div>
+                <div class="plusMinus">
+                    <button onclick="increase()"  class="plus">+</button>
+                    <button onclick="decrease()" class="minus">-</button>
+                </div>
+            </div>
+
+            <div class="minutesRevers">
+                <div class="seconds2">00:00</div>
+                <div class="manipulate2">
+                    <button onclick="startDecreaseTime()"  class="start2" >start</button>
+                    <button onclick="stopDecrTime()" class="stop2">stop</button>
+                    <button onclick="reset2()" class="reset2">reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS.HW.17.js"></script>
+</body>
+
+</html>
